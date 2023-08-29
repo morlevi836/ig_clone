@@ -1,0 +1,319 @@
+body {
+    background-color: whitesmoke;
+}
+
+.top-bar {
+    position: fixed;
+    display: block;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    z-index: 3; 
+}
+
+img {
+    position: absolute;
+    top: 10px;
+    width: 25px;
+}
+
+.ig-logo-img {
+    width: 100px;
+    left: 10px;
+}
+
+.heart-notification-top-bar {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50px;
+    border: 1px solid white;
+    top: 10px;
+    right: 11px;
+    z-index: 1;
+}
+
+.heart-icon-img {
+    width: 20px;
+    right: 15px;
+    top: 13px;
+}
+
+.search-box {
+    position: absolute;
+    background-color: rgb(245, 237, 237);
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+    top: 9px;
+    right: 60px;
+}
+
+.search-icon-img {
+    width: 15px;
+    top: 8px;
+    left: 10px;
+}
+
+#search-title {
+    position: absolute;
+    left: 35px;
+    top: -15px;
+    color: rgb(183, 182, 182);
+}
+
+.main-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stories {
+    position: relative;
+    overflow: auto;
+    width: 500px;
+    height: 125px;
+    background-color: white;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 10px;
+    left: 0px;
+    top: 60px;
+}
+
+.stories-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border-top: 3px solid pink;
+    border-bottom: 3px solid orange;
+    border-left: 3px solid yellow;
+    border-right: 3px solid cyan;
+}
+
+.stories-txt {
+    position: absolute;
+    bottom: 0px;
+    color: #b0adad;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img1-img {
+    left: 20px;
+}
+
+.txt1-txt {
+    left: 10px;
+}
+
+.img2-img {
+    left: 120px;
+}
+
+.txt2-txt {
+    left: 110px;
+}
+
+.img3-img {
+    left: 220px;
+}
+
+.txt3-txt {
+    left: 213px;
+}
+
+.img4-img {
+    left: 320px;
+}
+
+.txt4-txt {
+    left: 305px;
+}
+
+.img5-img {
+    left: 420px;
+}
+
+.txt5-txt {
+    left: 415px;
+}
+
+.img6-img {
+    left: 520px;
+}
+
+.txt6-txt {
+    left: 515px;
+}
+
+.img7-img {
+    left: 620px;
+}
+
+.txt7-txt {
+    left: 605px;
+}
+
+.stories-txt {
+    display: inline-block;
+    position: absolute;
+}
+
+.post {
+    position: relative;
+    width: 500px;
+    height: 770px;
+    background-color: white;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 10px;
+    /* left: 0px; */
+    top: 80px;
+}
+
+.post-top-bar {
+    position: absolute;
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.profile-img {
+    width: 40px;
+    border-radius: 50px;
+    left: 5px;
+}
+
+#profile-title {
+    position: absolute;
+    left: 60px;
+    font-family: 'Segoe UI';
+    top: -2px;
+}
+
+.dots-img {
+    right: 15px;
+    top: 18px;
+}
+
+.post-img {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 61px;
+}
+
+.video-fun {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 61px;
+    height: 500px;
+}
+
+.icons-bar {
+    position: absolute;
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    top: 561px;
+    left: 0px;
+}
+
+.heart-post-img {
+    left: 15px;
+}
+
+.comments-img {
+    left: 65px;
+}
+
+.send-img {
+    left: 115px;
+}
+
+.save-img {
+    right: 15px;    
+}
+
+.post-bottom-bar {
+    position: absolute;
+    width: 100%;
+    top: 601px;
+    left: 10px;
+}
+
+.view-all-comments {
+    color: rgb(183, 182, 182);
+}
+
+.add-comment {
+    color: rgb(183, 182, 182);
+}
+
+.happy-img {
+    width: 15px;
+    top: 740px;
+    right: 19px;
+}
+
+.bottom-bar {
+    position: fixed;
+    display: block;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    border-top: 1px solid rgb(228, 228, 228);
+    z-index: 3; 
+}
+
+.icons-bottom-bar {
+    position: relative;
+    left: 34%;
+}
+
+.homepage-img {
+    left: 25px;
+}
+
+.explore-img {
+    left: 115px;
+}
+
+.reels-img {
+    left: 205px;
+}
+
+.create-img {
+    left: 295px;
+}
+
+.messenger-img {
+    left: 385px;
+}
+
+.heart-notification-bottom-bar {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: red;
+    border-radius: 50px;
+    border: 1px solid white;
+    top: 6px;
+    left: 400px;
+    z-index: 1;
+}
+
+.bibi-img {
+    left: 475px;
+    border-radius: 50px;
+}
